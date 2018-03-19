@@ -27,12 +27,13 @@
 			</div>
 			<div class="col-sm-12 col-lg-4 col-xl-4">
 				<!-- <h4>Webchats</h4> -->
-			</div>
-			<div class="col-sm-12 col-lg-4 col-xl-4">
 				<h4>Atendimento</h4>
 				<p>Segunda à Sexta - 08:00 às 18:00</p>
 				<p>Sábado - Fechado</p>
 				<p>Domingo - Fechado</p>
+			</div>
+			<div class="col-sm-12 col-lg-4 col-xl-4">
+				
 			</div>
 		</div>
 	</div>
