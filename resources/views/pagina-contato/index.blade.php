@@ -22,7 +22,7 @@
 					<p>Av. Des. Tácito de Caldas, 277 - Centro, Açailândia - MA, 65930-000</p>
 					<p class="phone"><i class="fas fa-phone" style="transform: rotate(100deg);"></i>(99) 3538-8902</p>
 					<p class="phone"><i class="fas fa-mobile"></i>&nbsp;(99) 0000-0000</p>
-					<p class="phone"><i class="fas fa-envelope"></i><a href="#">contato@stelaanicacio.com.br</a></p>
+					<p class="phone"><i class="fas fa-envelope"></i><a href="#">faleconosco@stelaanicacio.com.br</a></p>
 				</address>
 			</div>
 			<div class="col-sm-12 col-lg-4 col-xl-4">
