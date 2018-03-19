@@ -96,7 +96,6 @@
 
 						<div class="alert alert-danger" role="alert" style="display: none;">
 						  	<!-- {{ session('status') }} -->
-						  	
 						</div>
 						
 					</div>

@@ -47,12 +47,10 @@ $('#contatoForm').on('submit', function(e){
     dataType: 'json',
     success: function(data){
       if(data.status == 0) return alert(data.mensagem)
-
       $('.alert-success').css('display','flex')
     },
     error: function(error){
       $('.alert-danger').css('display','flex').html(error.mensagem)
-      alert(JSON.stringify(error))
     }
   })
 

@@ -18,9 +18,9 @@ class ContatoController extends Controller
 
    		try{
 
-	   		$messages = [
-				'required' => 'Todos os campos são de preenchimento obrigatório, inclusive o captcha.'   			
-	   		];
+	   // 		$messages = [
+				// 'required' => 'Todos os campos são de preenchimento obrigatório, inclusive o captcha.'   			
+	   // 		];
 
 	   		$validator = Validator::make($request->all(), [
 			    'g-recaptcha-response' => 'required|captcha',
@@ -29,7 +29,7 @@ class ContatoController extends Controller
 			    'assunto' => 'required|max:100',
 			    'fone'=>'max:20',
 			    'mensagem' => 'required|max:1000'
-			], $messages);
+			]);
 
 			if($validator->fails()) {
 	            // return redirect('/contato')
@@ -37,15 +37,15 @@ class ContatoController extends Controller
 	            // ->withInput();
 	            return response()->json([
 	   				'status' => 0, 
-	   				'mensagem' => 'E-mail não pode ser enviado.'
+	   				'mensagem' => 'E-mail não pode ser enviado, preencha todos os campos e tente novamente.'
 	   			]);
 	        }
 
-	   		Mail::to('contato@stelaanicacio.com.br')->send(new Contato($request->all()));
+	   		Mail::to('faleconosco@stelaanicacio.com.br')->send(new Contato($request->all()));
 
 	   		return response()->json([
 	   			'status' => 1, 
-	   			'mensagem' => 'E-mail enviado com sucesso.'
+	   			'mensagem' => 'E-mail enviado com sucesso!'
 	   		]);
 
    		}catch(\Exception $e){

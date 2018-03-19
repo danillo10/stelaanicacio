@@ -36,7 +36,7 @@ class Contato extends Mailable
     public function build()
     {
         return 
-        $this->from('contato@stelaanicacio.com.br')
+        $this->from('faleconosco@stelaanicacio.com.br')
         ->view('email.contato');
     }
 }
