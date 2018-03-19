@@ -17,7 +17,7 @@
 					<h3>Contato</h3>
 					<p>Av. Des. Tácito de Caldas, 277 - Centro, Açailândia - MA, 65930-000</p>
 					<p class="phone">(99) 3538-8902</p>
-					<a href="mailto:contato@stellaanicacio.com.br">faleconosco@stelaanicacio.com.br</a>
+					<a href="mailto:faleconosco@stelaanicacio.com.br">faleconosco@stelaanicacio.com.br</a>
 
 					<h3 class="mt-5">Newsletter</h3>
 					<p>Receba nossos informativos e fique pode dentro das novidades</p>
